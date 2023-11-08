@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+        
+    
+    <section class="sec1">
+        <div class="logo">
+            <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"  height="106px" alt="Facebook">
+            <p>
+                Facebook helps you connect and share <br>
+                 with the people in your life.
+            </p>
+        </div>
+        <div class="rtd">
+            <form onsubmit="return formValidate1()" class="form" action="www.google.com" method="get">
+                <div>
+                    <input type="text" name="user" id="username" placeholder="Email or phone">
+                </div>
+                <p id="error"></p>
+                <div>
+                    <input type="password" name="pass" id="pass" placeholder="password">
+                </div>
+                <p id="error2"></p>
+                <div>
+                    <input type="submit" value="Log in">
+                </div>
+                
+                
+                
+                <a  href="#">
+                    <p>Forgotten Password?</p>
+                </a>
+                <hr>
+
+                <a  class="link" href="#">
+                    <input onclick="return openForm()" type="button" value="Create new account">
+                </a>
+            </form>
+        </div>
+
+    </section>
+    
+    <div  class="sec2" id="pop" >
+        <form class="form2" action="" >
+            <div>
+                <h1 >Sign Up <button onclick ="return closeForm()">X</button></h1>
+                <p>It's quick and easy.</p>
+                
+                
+            </div>
+            <hr>
+            
+
+            <div>
+                <input type="text" name="" id="firstname" placeholder="first name">
+                <input type="text" name="" id="surname" placeholder="surname">
+            </div>
+            
+
+
+            <div class="div2">
+                <input type="text" name="" id="user2" placeholder="Email or Mobile">
+            </div>
+
+
+            <div class="div3">
+                <input type="password" name="" id="pass2" placeholder="password">
+            </div>
+
+
+            <div class="div4">
+
+                <select name="" id="day">
+                    <option  id="opt"  value=""></option>
+                </select>
+
+                <select name="" id="">
+                    <option value=""></option>
+                </select>
+
+                <select name="" id="">
+                    <option value=""></option>
+                </select>
+
+            </div>
+            <div>
+                <span>
+                    <label for="">male</label>
+                    <input type="radio" name="gender" id="">
+                </span>
+                
+                <span>
+                    <label for="">female</label>
+                    <input type="radio" name="gender" id="">
+                </span>
+
+                <span>
+                    <label for="">custom</label>
+                    <input type="radio" name="gender" id="">
+                </span>
+                
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
